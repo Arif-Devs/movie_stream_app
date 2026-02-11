@@ -75,7 +75,7 @@ jobs:
           push: true
           context: .
           file: ./Dockerfile
-          tags: jinny1/movie-streaming-backend-nodejs:latest
+          tags: arif164/movie-streaming-backend-nodejs:latest
 
       -
         name: Build and push frontend dockerfile
@@ -84,6 +84,6 @@ jobs:
           push: true
           context: ./html
           file: ./html/Dockerfile
-          tags: jinny1/movie-streaming-frontend:latest
+          tags: arif164/movie-streaming-frontend:latest
  
           
